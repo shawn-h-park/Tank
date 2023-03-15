@@ -104,6 +104,12 @@
     </dependency>
 
     <dependency>
+      <groupId>org.glassfish.soteria</groupId>
+      <artifactId>javax.security.enterprise</artifactId>
+      <version>1.0</version>
+    </dependency>
+
+    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-compress</artifactId>
     </dependency>
