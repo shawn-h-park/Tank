@@ -13,7 +13,13 @@ phases:
   build:
     commands:
       - java -version
-      - mvn clean install -P release -Dmaven.test.skip=true
+      - mvn clean install surefire-report:report -P release
+
+reports:
+  SurefireReports: # CodeBuild will create a report group called "SurefireReports".
+    files: #Store all of the files
+      - '**/*'
+    base-directory: 'web/web_support/target/surefire-reports' # Location of the reports
 
 artifacts:
   files:
