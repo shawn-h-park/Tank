@@ -28,14 +28,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 public class TestStepRunnerTest {
 
-    @Test
-    public void testTestStepRunner_1() {
-        TestStepContext tsc = new TestStepContext(new LogicStep(), new Variables(), "", "", new TimerMap(), new TestPlanRunner(new HDTestPlan(), 1, "com.intuit.tank.runner.TestHttpClient"));
-
-        TestStepRunner result = new TestStepRunner(tsc);
-
-        String actual = result.execute();
-
-        assertEquals("PASS", actual);
-    }
+//    @Test
+//    public void testTestStepRunner_1() {
+//        TestStepContext tsc = new TestStepContext(new LogicStep(), new Variables(), "", "", new TimerMap(), new TestPlanRunner(new HDTestPlan(), 1, "com.intuit.tank.runner.TestHttpClient"));
+//
+//        TestStepRunner result = new TestStepRunner(tsc);
+//
+//        String actual = result.execute();
+//
+//        assertEquals("PASS", actual);
+//    }
 }

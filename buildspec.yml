@@ -13,7 +13,7 @@ phases:
   build:
     commands:
       - java -version
-      - mvn -U clean install -DskipTests
+      - mvn clean install -DskipTests -P release
 
 artifacts:
   files:
