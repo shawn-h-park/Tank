@@ -440,6 +440,12 @@
         <version>1.0</version>
       </dependency>
 
+      <dependency>
+        <groupId>javax.security.enterprise</groupId>
+        <artifactId>javax.security.enterprise-api</artifactId>
+        <version>1.0</version>
+      </dependency>
+
       <!-- JSF -->
       <dependency>
         <groupId>org.glassfish</groupId>
